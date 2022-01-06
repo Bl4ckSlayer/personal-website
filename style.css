@@ -86,20 +86,20 @@ p{font-size: 25px;}
 }
 #div-display1{
     padding: 2rem;
-    border-radius: 7px;
+    border-radius: 15px;
     background-color: #EEF6F7;
     margin-left: 3%;}
 #div-display2{
         padding: 2rem;
     
-        border-radius: 7px;
+        border-radius: 15px;
         background-color: #ffefef;
         margin-left: 3%;
     margin-right: 3%;}
 #div-display3{
     
             padding: 2rem;
-    border-radius: 7px;
+    border-radius: 15px;
             background-color: #fff4df;
             margin-right: 3%;}
 #s3-border-image{
