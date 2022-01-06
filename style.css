@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .bh1{
-    font-size:60px;
+    font-size:70px;
     padding-left: 10px;
     
 }
@@ -73,6 +73,7 @@ h2{
     border-left: 5px solid;
     border-image: linear-gradient( rgb(255, 72, 0),rgb(255, 81, 0));
     border-image-slice: 1;
+    line-height: 70px;
 }
 .orange-color{
     color: orange;
