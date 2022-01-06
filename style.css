@@ -1,9 +1,10 @@
 body{
     font-family: 'Patrick Hand', cursive;
-    margin: 2%;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    font-size:40px;
+.bh1{
+    font-size:60px;
     padding-left: 10px;
     
 }
@@ -17,33 +18,44 @@ h2{
 .flexible{
     display: flex;
     padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
     
     
 }
 .half-width{
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
-    padding-top: 8%;
-    margin-bottom: 5px;
-justify-content:center ;}
-
+    padding-top: 5%;
+   
+}
 .half-width img{
-        width : 70%;
-        padding-right: 5%;
-        
-        margin-bottom: 5px;
-    }
-.new-width{
-        width: 100%;
-    padding-right: 4rem;
+    width : 50%;
+   
     
-    margin-bottom: 5px;
-    justify-content: center ;
-    }
-    .new-width img{width : 60%;
-        padding-right: 5%;
+    
+}
+.new-flexible{
+    display: flex;
+    padding: 0 6%;
+    padding-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+}
+
+
+.new-width{
         
-        margin-bottom: 5px;}
+    width: 70%;
+    margin-left: 100px;
+    font-size: larger;
+
+    
+     
+    }
+
 .linked-button{
     text-decoration: none;  
     padding: 5px 30px;
@@ -65,6 +77,10 @@ justify-content:center ;}
 .orange-color{
     color: orange;
 }
+.blue-color{
+    color: rgb(2, 2, 63);
+}
+p{font-size: 25px;}
 .text-center{
     text-align: center;
 }
@@ -89,13 +105,110 @@ justify-content:center ;}
 #s3-border-image{
     background-image: url(/personal-website/images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position-x: 30px;
-    overscroll-behavior-y: 40px;
-    background-size: 150px;
+    background-position-x: 80px;
+    background-position-y: 70px;
+    background-size: 180px;
 
 
 }
-           
+
+  .cooding-image {
+      margin-left: 50px;
+  }         
+  #global-bg{
+    background-image: url(/personal-website/images/shapes/shape-11.png);
+    background-repeat: no-repeat;
     
+    background-size: 200px;
+    background-position: right;
+    background-position-y: 400px;
+    
+      
+  }
+  .project-img{
+      margin-right: 50px;
+  }
+.project-content{
+    
+        
+        width: 70%;
+        margin-right: 100px;
+        font-size: larger;   
+       
+                 
+         
+        }
+        .f-div{
+            background-color: black;
+
+        }
+        .f-font{
+            font-family: 'Lobster', cursive;
+
+            color: white;
+            text-align: center;
+            font-size :40px;
+        }
+        .f-lfont{
+            text-align: center;
+            color: rgba(194, 212, 247, 0.747);
+            font-size: 18px;
+        }
+        .f-color{
+            color: rgba(248, 69, 69, 0.808);
+            
+        }
+        footer{
+            margin-bottom: -20px;
+        }
 
 
+        
+
+        .form-cont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            margin: 0vh auto;
+            padding: 15px;
+            border-radius: 15px;
+            border: none;
+          
+        } 
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }textarea {
+            width: 370%;
+            margin: 5px 0;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgb(212, 209, 209);
+        }
+        
+        
+        
+        input {
+            width: 370%;
+            margin: 5px 0;
+            height: 35px;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgb(217, 218, 213)
+        }
+        
+        #contact-bg{
+            
+            border-radius: 15px;
+            border-style:ridge;
+        }
+       
